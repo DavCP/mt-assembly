@@ -19,7 +19,7 @@ mkdir -p $OUTDIR
 
 # Cargar la base de datos para el genoma o genomas objetivo
 
-apptainer exec $CONATINER \
+apptainer exec $CONTAINER \
      get_organelle_config.py --add animal_mt
 
 
